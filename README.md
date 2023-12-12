@@ -1,8 +1,8 @@
-# REACT JSX, Component, Props - Part 1
+# REACT - JSX, Component, Props - Part 1
 
 This project was created using React.js
 
-## Available Scripts
+## Description
 
 In the project:
 A simple card set was created using Component Called Jobs
