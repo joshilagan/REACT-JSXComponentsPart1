@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Job from './Job';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Job salary="12,000" position="Senior SDE" company="Amazon"/>
+      <Job salary="9,000" position="Junior SDE" company="Google"/>
+      <Job salary="18,000" position="Project Manager" company="Netflix"/>
+      
+
     </div>
   );
 }
