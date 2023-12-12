@@ -3,21 +3,36 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  background-color: #eeeeee;
+}
+.App{
+  margin-top: 200px;
+}
+
+.jab {  
+  margin: auto;
+  width: 40%;
+  padding: 10px;
 }
 
 .box {
   margin: 10px;
+  margin: auto;
   border: solid 3px black;
   border-radius: 10px;
   padding: 10px;
   width: 450px;
+  
+  background-color: bisque;
 }
 
 .position {
   text-align: center;
+  background-color: bisque;
 }
 
 .description {
   text-align: center;
   padding: 10px;
+  background-color: bisque;
 }
